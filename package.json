@@ -1,0 +1,32 @@
+{
+  "name": "stockTrader",
+  "version": "0.0.1",
+  "description": "Stock Trader",
+  "contributors": [],
+  "dependencies": {
+    "aws-sdk": "^2.145.0",
+    "datejs": "^1.0.0-rc3",
+    "js-big-decimal": "^1.1.8",
+    "mysql": "github:mysqljs/mysql",
+    "node-fetch": "^1.7.3",
+    "node.bittrex.api": "0.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-dude/stockTrader"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.11.2"
+  },
+  "devDependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "express": "^4.15.4"
+  }
+}
